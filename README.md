@@ -4,6 +4,12 @@ Power BI | Power Query | DAX | Git/GitHub | CSV´s
 Autor: Otelmo Junior Borba  
 Periodo dos dados: Janeiro/2023 a Maio/2024
 
+## Preview do dashboard
+
+Visao executiva principal da pagina DFC:
+
+![Dashboard executivo DFC](assets/img/image2.jpg)
+
 ## Sumario
 
 1. [Contexto de Negocio](#1-contexto-de-negocio)
@@ -377,6 +383,36 @@ Valor de negocio: permite exibir entradas, saidas e saldos em uma unica tabela h
 
 O projeto conta com 2 paginas de dashboard, cada uma com proposito especifico. A seguir, apresentamos cada pagina e seus graficos com analise detalhada de negocio.
 
+#### Galeria visual
+
+Pagina DFC:
+
+![Pagina DFC](assets/img/image2.jpg)
+
+Pagina Matriz:
+
+![Pagina Matriz](assets/img/image3.jpg)
+
+Saldo por banco:
+
+![Saldo por banco](assets/img/image1.png)
+
+Entradas e saidas por periodo:
+
+![Entradas e saidas por periodo](assets/img/image7.jpg)
+
+Saldo acumulado por periodo:
+
+![Saldo acumulado por periodo](assets/img/image6.jpg)
+
+Entradas por subgrupo:
+
+![Entradas por subgrupo](assets/img/image5.png)
+
+Saidas por subgrupo:
+
+![Saidas por subgrupo](assets/img/image4.png)
+
 #### 3.8.1 Pagina "Matriz": visao analitica detalhada
 
 Visuais incluidos:
@@ -517,6 +553,15 @@ A construcao desta solucao de Fluxo de Caixa no Power BI entregou os seguintes r
 
 ```text
 analise-fluxo-caixa-powerbi/
+|-- assets/
+|   `-- img/
+|       |-- image1.png
+|       |-- image2.jpg
+|       |-- image3.jpg
+|       |-- image4.png
+|       |-- image5.png
+|       |-- image6.jpg
+|       `-- image7.jpg
 |-- dados_brutos/
 |   |-- Bancos.csv
 |   |-- Modelo.csv
